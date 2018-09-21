@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Photography... Lens of BebeCOCO</title>
+    <link rel="shortcut icon" type="image/png" href="images/photo-camera.png">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="jquery.fancybox.min.css">
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <a href="#bio" class="logo">BebeCOCO</a>
+            <div class="desktopNav">
+                <a href="#about">About</a>
+                <a href="#photos">Photographs</a>
+                <a href="#bio">Who Am I</a>
+                <!-- <a href="#social">Social</a> -->
+            </div>
+        </nav>
+        <div class="heroContent">
+            <h1>Lens of BebeCOCO</h1>
+            <p>Photography With Soul</p>
+        </div>
+        <div class="scroll">
+            <div class="line"></div>
+            <p>Scroll</p>
+        </div>
+        <div class="video">
+            <video src="video/Amethys.mp4" autoplay loop controls muted></video>
+        </div>
+    </div>
+    <div class="flex-2"id="photos">
+        <div class="flexItem">
+            <img src="images/22.JPG" alt="about Lens of BebeCOCO">
+        </div>
+        <div class="flexItem flextText" id="about">
+            <h2>Photography,<br>a love affair with life.</h2>
+            <p>There is one thing the photograph must contain, the humanity of the moment. This kind of photography is realism.
+                But realism is not enough, there has to be vision, and the two together can make a good photograph.</p>
+            <ul>
+                <li><img src="images/gallery.png" alt="">Landscape</li>
+                <li><img src="images/diamond.png" alt="">Fashion</li>
+                <li><img src="images/pencil-case.png" alt="">Art</li>
+            </ul>
+        </div>
+    </div>
+    <div class="imageSection">
+        <h2>Photographs</h2>
+        <div class="images">
+            <a data-fancybox="gallery" href="images/2.JPG" data-caption="Trapped in the City"><img src="images/2.JPG"></a>
+            <a data-fancybox="gallery" href="images/1.jpg" data-caption="Embrace Varadero"><img src="images/1.jpg"></a>
+            <a data-fancybox="gallery" href="images/4.JPG" data-caption="Standing tall"><img src="images/4.JPG"></a>
+            <a data-fancybox="gallery" href="images/10.jpg" data-caption="Buy happiness"><img src="images/10.jpg"></a>
+            <a data-fancybox="gallery" href="images/5.JPG" data-caption="Durango's Hidden Places"><img src="images/5.JPG"></a>
+            <a data-fancybox="gallery" href="images/7.jpg" data-caption="Cappadocia's Wander"><img src="images/7.jpg"></a>
+            <a data-fancybox="gallery" href="images/14.JPG" data-caption="Alexadria's love"><img src="images/14.JPG"></a>
+            <a data-fancybox="gallery" href="images/44.jpg" data-caption="Contemplate"><img src="images/44.jpg"></a>
+            <a data-fancybox="gallery" href="images/9.JPG" data-caption="I wish I was this happy"><img src="images/9.JPG"></a>
+            <a data-fancybox="gallery" href="images/11.jpg" data-caption="Frozen Beauty"><img src="images/11.jpg"></a>
+            <a data-fancybox="gallery" href="images/13.JPG" data-caption="Frame to the Past"><img src="images/13.JPG"></a>
+            <a data-fancybox="gallery" href="images/55.jpg" data-caption="Shine Bright"><img src="images/55.jpg"></a>
+        </div>
+        <div class="line2"></div>
+    </div>
+    <div class="flex-2" id="bio">
+        <div class="flexItem flextText">
+            <h2>Who<br>Am I</h2>
+            <p>I am an avid learner, passionate traveler, laborious dreamer and a citizen of the world, finding beauty, life,
+                emotions and perspectives in unexpected places.</p>
+            <a href="https://www.ruso.io" target="blank">Bio<img src="images/arrow_icon.png" alt="arrow icon"></a>
+        </div>
+        <div class="flexItem">
+            <img src="images/33.JPG" alt="Bio">
+        </div>
+    </div>
+    <footer id="social">
+        <a href="https://www.instagram.com/armandolongoria" target="blank"><img src="images/insta_icon.png" alt="instagram icon"></a>
+        <a href="https://twitter.com/ArmandoLongoria" target="blank"><img src="images/twitter_icon.png" alt="twitter icon"></a>
+        <a href="https://www.facebook.com/almxtr" target="blank"><img src="images/faceb_icon.png" alt="surf image"></a>
+        <p>&copy; Lens of BebeCOCO</p>
+    </footer>
+
+    <script type="text/javascript">
+        $('[data-fancybox]').fancybox({
+            loop: true,
+            buttons: [
+                "zoom",
+                "share",
+                "slideShow",
+                "thumbs",
+                "close"
+            ]
+        });
+    </script>
+</body>
+
+</html>
